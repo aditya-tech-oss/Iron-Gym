@@ -1,0 +1,65 @@
+*{
+    padding : 0;
+    margin : 0;
+    font-family : Arial;
+    box-sizing: border-box;
+}
+
+/* HEADING LINKS LISTS */
+
+.navbar{
+    height: 80px;
+    padding: 0 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    background-color : #111827;
+    border-bottom: 1px solid #374151;
+}
+#navheading{
+    font-size: 24px;
+    font-weight: 800;
+    letter-spacing: 2px;
+     color : #FFFFFF;
+}
+.linklist{
+     display : flex; 
+     gap : 30px;
+     position : absolute;
+     left : 50%;
+     transform : translateX(-50%) ;
+    list-style : none;
+}
+.linklist a{
+    text-decoration: none;
+    color :  #D1D5DB;
+    transition: color 0.3s ease;
+}
+.linklist a:hover{
+    color: #E63946;
+}
+#joinbton{
+    background-color : #E63946;
+    color : #FFFFFF;
+    border : none;
+    font-size : 15px;
+    padding : 12px 25px;
+    cursor: pointer;
+    border-radius : 15px;
+    transition: background-color 0.3s ease;
+}
+#joinbton:hover{
+    background-color : #C1121F;
+}
+
+/* HERO SECTION */
+
+.hero{
+    display: flex;
+    min-height: 600px;
+    background-color : #050505;
+}
+.hero-content{
+    color : white ;
+}
