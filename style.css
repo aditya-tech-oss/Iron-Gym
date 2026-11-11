@@ -104,9 +104,84 @@
     border-radius: 8px;
     cursor: pointer;
     width: fit-content;
-    transition: background-color 0.3s ease;
+    transition: all 0.3s ease;
 }
 #herobton:hover{
     background-color: #C1121F;
     transform: scale(1.05);
+}
+
+/* Programs */
+
+.program{
+    min-height: 700px;
+    width: 100%;
+      background-color : #050505;  
+}
+.para{
+
+}
+#programhead{
+    display : flex;
+    justify-content : center;
+    font-size : 38px;
+    color : white;
+}
+#programpara{
+    display : flex;
+    justify-content : center;
+    margin-top : 5px;
+     font-size : 20px; 
+    color : white;
+}
+
+ /*    CARDS    */
+.card{
+    display : flex;
+    justify-content: center;
+    padding : 20px 50px;
+    width : 100%;
+    height : 100%
+}
+#cardA{
+    margin : 15px;
+    height : 78vh;
+    width : 30%;
+    border: 1px solid #374151;
+    border-radius : 25px;
+    position : relative;
+    background-image : url(edgar-chaparro-sHfo3WOgGTU-unsplash.jpg);
+      background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#cardB{
+    margin : 15px;
+    height : 78vh;
+    width : 30%;
+   border: 1px solid #374151;
+   border-radius : 25px;
+   position : relative;
+    background-image : url(sour-moha-_cUZkx0wTyM-unsplash.jpg);
+       background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.card-heading{
+      position: absolute;
+    bottom : 20px;
+    left : 20px;
+    color : white;
+}
+#cardC{
+    margin : 15px;
+    height : 78vh;
+    width : 30%;
+    border: 1px solid #374151;
+    border-radius : 25px;
+    position : relative;
+    background-image: url(akram-huseyn-MTCpxU8b31I-unsplash.jpg);
+       background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
