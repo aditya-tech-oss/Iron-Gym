@@ -32,5 +32,5 @@ navLinks.forEach( function (val) {
 
 
 joinBton.addEventListener("click", function () {
-    window.open("https://wa.me/917717555942", "_blank");
+   window.location.href = "https://wa.me/917717555942";
 })
